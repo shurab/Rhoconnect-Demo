@@ -10,7 +10,7 @@ Sample applications for RhoConnect presentation:
 
 * store-manager: Rhodes application (fixed schema DB)
 
-## Plugin
+### Plugin
 
 Sample applications for RhoConnect presentation how to use rhoconnectrb plugin:
 
@@ -23,7 +23,7 @@ Sample applications for RhoConnect presentation how to use rhoconnectrb plugin:
   - edit app/models/product.rb
 
 
-## Sample of rhoconnect application 'rhoconnect-basic'
+### Sample of rhoconnect application 'rhoconnect-basic'
 It's created by running these commands:
 
 ```
@@ -73,14 +73,14 @@ syncserver = 'http://localhost:9292'
   enable :sync
 ```
 
-6) Run it
+6) Run it on simulator
 
 ```
 $ rake clean:iphone
 $ rake run:iphone
 ```
 
-  or
+  or rhosimulator
 
 ```  
 $ rake run:rhosimulator
