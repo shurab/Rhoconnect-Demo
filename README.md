@@ -60,19 +60,27 @@ syncserver = 'http://localhost:9292'
 
 6) Run it
 
+```
 $ rake clean:iphone
 $ rake run:iphone
+```
+
   or
+
+```  
 $ rake run:rhosimulator
+```
 
 ### RhoMobile
 
+```
 cd store-manager/
 git init
 git remote add origin git@git.rhohub.com:shurab/store-manager.git
 git add .
 git commit -m "Init commit of store-manager app"
 git push -u origin master
+```
 
 #### vendor/cache
 
