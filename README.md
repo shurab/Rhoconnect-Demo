@@ -1,16 +1,19 @@
-# RhoConnect Demo
+## RhoConnect Demo
 
-Sample applications for my RhoConnect presentation:
+Sample applications for RhoConnect presentation:
 
 * rhostore: This is the sample rails application that serves the "backend"
 
-* rhoconnect-server: Vanilla RhoConnect application
+* rhoconnect-basic: Vanilla RhoConnect application
 
-* store-rhodes: Rhodes application (property bag DB)
+* rhoconnect-server: RhoConnect application with Product model
 
-* store-rhodes-fs: Rhodes application (fixed schema DB)
+* store-manager: Rhodes application (fixed schema DB)
 
-# Plugin
+## Plugin
+
+Sample applications for RhoConnect presentation how to use rhoconnectrb plugin:
+
 * rhostore-with-plugin: This is the sample rails application that serves the "backend"
 
   - add line "gem 'rhoconnect-rb'" to Gemfile
@@ -20,17 +23,17 @@ Sample applications for my RhoConnect presentation:
   - edit app/models/product.rb
 
 
-# Sample of rhoconnect application 'rhoconnect-basic'
-# It's created by running these commands:
+## Sample of rhoconnect application 'rhoconnect-basic'
+It's created by running these commands:
 
+```
 $ rhoconnect app rhoconnect-basic
 $ cd rhoconnect-basic/
-### $ rhoconnect help
+$ rhoconnect help
 $ rhoconnect source Product
+```
 
-
-###
-# How to create store-manager
+### How to create store-manager
 
 1) Create app
 $ rhodes app store-manager
@@ -41,10 +44,10 @@ $ rake run:iphone
 $ rake run:rhosimulator
 $ rhodes model product brand,name,price,quantity,sku
 
-2) # Edit build.yml
+2) Edit build.yml
   sdk: iphonesimulator6.1
 
-3) # Edit rhoconfig.txt
+3) Edit rhoconfig.txt
 start_path = '/app/Product'
 ...
 syncserver = 'http://localhost:9292'
@@ -62,8 +65,7 @@ $ rake run:iphone
   or
 $ rake run:rhosimulator
 
-###
-# RhoMobile
+### RhoMobile
 
 cd store-manager/
 git init
@@ -72,11 +74,14 @@ git add .
 git commit -m "Init commit of store-manager app"
 git push -u origin master
 
-# vendor/cache
+#### vendor/cache
+
+```
 bundle package
 bundle install
 git add vendor/
 git commit ...
+```
 
-## Docs
-## Video
+### Docs
+### Video
