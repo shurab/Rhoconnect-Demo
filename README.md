@@ -36,6 +36,8 @@ $ rhoconnect source Product
 ### How to create store-manager
 
 1) Create app
+
+```
 $ rhodes app store-manager
 $ cd store-manager/
 $ rake -T
@@ -43,20 +45,33 @@ $ rake clean:iphone
 $ rake run:iphone
 $ rake run:rhosimulator
 $ rhodes model product brand,name,price,quantity,sku
+```
 
 2) Edit build.yml
+
+```
   sdk: iphonesimulator6.1
+```
 
 3) Edit rhoconfig.txt
+
+```
 start_path = '/app/Product'
 ...
 syncserver = 'http://localhost:9292'
+```
 
 4) Edit app/index.erb
+
+```
     <li><a href="Product">Products</a></li>
+```
 
 5) Edit app/Product/product.rb
+
+```
   enable :sync
+```
 
 6) Run it
 
