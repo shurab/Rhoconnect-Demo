@@ -1,0 +1,1048 @@
+Trhorunner
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Info.plist /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist
+cPhaseScriptExecution Copy\ RhoBundle /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh
+cCpResource Default-LandscapeRight.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png
+cCpResource Resources/back_btn.png build/Release-iphonesimulator/rhorunner.app/back_btn.png
+cCpResource Resources/home_btn.png build/Release-iphonesimulator/rhorunner.app/home_btn.png
+cCpResource Resources/ESRI/BluePushpin.png build/Release-iphonesimulator/rhorunner.app/BluePushpin.png
+cCopyPlistFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Entitlements.plist Entitlements.plist
+cCpResource Resources/forward_btn.png build/Release-iphonesimulator/rhorunner.app/forward_btn.png
+cCpResource Default-LandscapeLeft.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png
+cCpResource icon144.png build/Release-iphonesimulator/rhorunner.app/icon144.png
+cCpResource icon57.png build/Release-iphonesimulator/rhorunner.app/icon57.png
+cCpResource icon152.png build/Release-iphonesimulator/rhorunner.app/icon152.png
+cCpResource Default@2x.png build/Release-iphonesimulator/rhorunner.app/Default@2x.png
+cCpResource iTunesArtwork build/Release-iphonesimulator/rhorunner.app/iTunesArtwork
+cCpResource Default-Portrait.png build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png
+cCpResource Default-PortraitUpsideDown.png build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png
+cCpResource Resources/ESRI/esri@2x.png build/Release-iphonesimulator/rhorunner.app/esri@2x.png
+cCpResource Resources/gears.png build/Release-iphonesimulator/rhorunner.app/gears.png
+cCpResource icon120.png build/Release-iphonesimulator/rhorunner.app/icon120.png
+cCpResource Default.png build/Release-iphonesimulator/rhorunner.app/Default.png
+cCpResource Default-568h@2x.png build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png
+cCpResource Default-Landscape.png build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png
+cCpResource icon60.png build/Release-iphonesimulator/rhorunner.app/icon60.png
+cCpResource icon72.png build/Release-iphonesimulator/rhorunner.app/icon72.png
+cCpResource icon76.png build/Release-iphonesimulator/rhorunner.app/icon76.png
+cCpResource Resources/ESRI/BluePushpin@2x.png build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png
+cCpResource icon114.png build/Release-iphonesimulator/rhorunner.app/icon114.png
+cCpResource Resources/ESRI/esri.png build/Release-iphonesimulator/rhorunner.app/esri.png
+cPhaseScriptExecution Move\ alerts\ to\ root\ of\ app /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh
+cProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner normal i386
+cGenerateDSYMFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner
+cTouch /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libiconv.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libstdc++.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051A3EEBB0000000000000110
+t1369697979
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/SDKSettings.plist
+c0000000050CE93CC000000000000039A
+t1355715532
+s922
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000050ED1146000000000000019E
+t1357713734
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050D5319200000000001EB500
+t1356149138
+s2012416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050D530A000000000003D4DC0
+t1356148896
+s4017600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050CE9C570000000000215D70
+t1355717719
+s2186608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050CE9C710000000000228FA0
+t1355717745
+s2264992
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050D530A5000000000009C550
+t1356148901
+s640336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c0000000050D5311500000000001924A0
+t1356149013
+s1647776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050CE9C8200000000003DDF60
+t1355717762
+s4054880
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c0000000050E4F6760000000000374330
+t1357182582
+s3621680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000050D5345300000000000F9CC0
+t1356149843
+s1023168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050CE9FB000000000001D5720
+t1355718576
+s1922848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000050E660C1000000000006E330
+t1357275329
+s451376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050D532D00000000000AB6200
+t1356149456
+s11231744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libsqlite3.0.dylib
+c0000000050CE969D00000000000D1EF0
+t1355716253
+s859888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libz.dylib
+c0000000050CE968E00000000000134D0
+t1355716238
+s79056
+
+N/Applications/Xcode.app/Contents/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000000000000000000000000000
+t2
+s0
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053AE4D150000000000688600
+t1403931925
+s6850048
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m
+c0000000053F273340000000000000050
+t1408398132
+s80
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-568h@2x.png
+c0000000053FBAAD70000000000015650
+t1409002199
+s87632
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-Landscape.png
+c0000000053FBAAD70000000000011783
+t1409002199
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-LandscapeLeft.png
+c0000000053FBAAD70000000000011783
+t1409002199
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-LandscapeRight.png
+c0000000053FBAAD70000000000011783
+t1409002199
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-Portrait.png
+c0000000053FBAAD70000000000015F44
+t1409002199
+s89924
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-PortraitUpsideDown.png
+c0000000053FBAAD70000000000015F44
+t1409002199
+s89924
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default.png
+c0000000053FBAAD70000000000015499
+t1409002199
+s87193
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default@2x.png
+c0000000053FBAAD70000000000015499
+t1409002199
+s87193
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Entitlements.plist
+c0000000053F2733400000000000001B7
+t1408398132
+s439
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist
+c0000000053F273340000000000000A9D
+t1408398132
+s2717
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/BluePushpin.png
+c0000000053F273340000000000000545
+t1408398132
+s1349
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/BluePushpin@2x.png
+c0000000053F273340000000000001D4A
+t1408398132
+s7498
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/esri.png
+c0000000053F2733400000000000008FB
+t1408398132
+s2299
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/esri@2x.png
+c0000000053F2733400000000000012C2
+t1408398132
+s4802
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/back_btn.png
+c0000000053F273340000000000000BD5
+t1408398132
+s3029
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/forward_btn.png
+c0000000053F273340000000000000BCC
+t1408398132
+s3020
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/gears.png
+c0000000053F2733400000000000014FF
+t1408398132
+s5375
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/home_btn.png
+c0000000053F273340000000000000DF2
+t1408398132
+s3570
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c
+c0000000053FBAAE700000000000001BA
+t1409002215
+s442
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/build/Release-iphonesimulator/libRhodes.a
+c0000000053FBAB210000000001D48DC0
+t1409002273
+s30707136
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c
+c0000000053FBAAE7000000000000010C
+t1409002215
+s268
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app
+t1409002274
+s1258
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM
+t2
+s0
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/BluePushpin.png
+t1409002273
+s1349
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png
+t1409002273
+s7498
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png
+t1409002273
+s87632
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png
+t1409002273
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png
+t1409002273
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png
+t1409002273
+s71555
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png
+t1409002273
+s89924
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png
+t1409002273
+s89924
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default.png
+t1409002273
+s87193
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default@2x.png
+t1409002273
+s87193
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Entitlements.plist
+t1409002273
+s168
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Info.plist
+t1409002273
+s1565
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/PkgInfo
+t1409002273
+s8
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/back_btn.png
+t1409002273
+s3029
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/esri.png
+t1409002273
+s2299
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/esri@2x.png
+t1409002273
+s4802
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/forward_btn.png
+t1409002273
+s3020
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/gears.png
+t1409002273
+s5375
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/home_btn.png
+t1409002273
+s3570
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/iTunesArtwork
+t1409002273
+s39069
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon114.png
+t1409002273
+s15130
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon120.png
+t1409002273
+s16903
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon144.png
+t1409002273
+s22141
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon152.png
+t1409002273
+s23197
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon57.png
+t1409002273
+s7056
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon60.png
+t1409002273
+s7397
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon72.png
+t1409002273
+s9248
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon76.png
+t1409002273
+s9909
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner
+t1409002274
+s9666904
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o
+t1409002274
+s93424
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o
+t1409002274
+s2372
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o
+t1409002274
+s2236
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o
+t1409002274
+s4112
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner.LinkFileList
+c0000000053FBAB2100000000000002A3
+t1409002273
+s675
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh
+c0000000053FBAB2100000000000001A7
+t1409002273
+s423
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh
+c0000000053FBAB210000000000000170
+t1409002273
+s368
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/iTunesArtwork
+c0000000053F27334000000000000989D
+t1408398132
+s39069
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon114.png
+c0000000053FBAAD70000000000003B1A
+t1409002199
+s15130
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon120.png
+c0000000053FBAAD70000000000004207
+t1409002199
+s16903
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon144.png
+c0000000053FBAAD7000000000000567D
+t1409002199
+s22141
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon152.png
+c0000000053FBAAD70000000000005A9D
+t1409002199
+s23197
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon57.png
+c0000000053FBAAD70000000000001B90
+t1409002199
+s7056
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon60.png
+c0000000053F273340000000000001CE5
+t1408398132
+s7397
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon72.png
+c0000000053FBAAD70000000000002420
+t1409002199
+s9248
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon76.png
+c0000000053FBAAD700000000000026B5
+t1409002199
+s9909
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m
+c0000000053F273340000000000000133
+t1408398132
+s307
+
+N/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch
+c0000000053F273340000000000000391
+t1408398132
+s913
+
+N/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch
+t1409002274
+s4758448
+
+N/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch
+t1409002273
+s117164
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9a5fc5a1e2abb941^6a88c6a1e2abb941^---0#1#1#--18"Check dependencies36"8E2407A2-BCBB-44A7-882C-F2C747D39598-
+
+CCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430695074.131694
+e430695074.239227
+r1
+xCompileC
+xbuild/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.h
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/RhodesBaseDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Rhodes.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/AppManager/AppManager.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/RhoMainView.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/SplashViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/RhoViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/LogOptionsController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/LogViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/DateTimePickerDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/RhoDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/DateTime.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/DateTimePickerViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Camera.old/PickImageDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Signature/SignatureDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Signature/SignatureView.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Signature/SignatureParam.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/Signature/SignatureViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/shared/api_generator/iphone/IMethodResult.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/NativeView/NVDelegate.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/NativeView/NVViewController.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/NetworkStatusMonitor.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/IPushNotificationsReceiver.h
+d/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9/platform/iphone/Classes/IAppMessageReceiver.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m215"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o Classes/CApplicationDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1d621a2e2abb941^4e423da2e2abb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m0000000000000000^4132"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o Classes/CApplicationDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -include /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch -MMD -MT dependencies -MF /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.d --serialize-diagnostics /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.dia -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Classes/CApplicationDelegate.m -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o36"DF7DBF02-F2CB-4B58-977F-529AD46E5BCA-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430695074.130959
+e430695074.151535
+r1
+xCompileC
+xbuild/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c198"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o Rhodes/app_build_configs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilerb1a321a2e2abb941^96cb26a2e2abb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c0000000000000000^3855"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o Rhodes/app_build_configs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -include /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch -MMD -MT dependencies -MF /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.d --serialize-diagnostics /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.dia -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/app_build_configs.c -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o36"CC297506-CE1A-4B5B-AF69-A36C39F6BF05-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430695074.131179
+e430695074.149558
+r1
+xCompileC
+xbuild/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c184"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o Rhodes/extensions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler74b521a2e2abb941^3d4926a2e2abb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c0000000000000000^3813"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o Rhodes/extensions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -include /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch -MMD -MT dependencies -MF /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.d --serialize-diagnostics /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.dia -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/extensions.c -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o36"309F8227-051A-45C6-875D-A20509112D56-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430695074.131447
+e430695074.155373
+r1
+xCompileC
+xbuild/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m175"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf5be21a2e2abb941^c9c627a2e2abb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m0000000000000000^4020"CompileC build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -include /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch -MMD -MT dependencies -MF /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.dia -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/main.m -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o36"2237ED4D-030C-4F6C-BF67-A83CD1494338-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCopyPlistFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Entitlements.plist Entitlements.plist
+s430695073.857663
+e430695073.867771
+r1
+xCopyPlistFile
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Entitlements.plist
+xEntitlements.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Copy Entitlements.plist95"CopyPlistFile build/Release-iphonesimulator/rhorunner.app/Entitlements.plist Entitlements.plist9dbddba1e2abb941^3e26dea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Entitlements.plist0000000000000000^861"CopyPlistFile build/Release-iphonesimulator/rhorunner.app/Entitlements.plist Entitlements.plist    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app -- Entitlements.plist36"8F3EAE36-C6E3-467C-A812-D5D8C078DB54-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-568h@2x.png build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png
+s430695073.865219
+e430695073.866455
+r1
+xCpResource
+xDefault-568h@2x.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png94"CpResource Default-568h@2x.png build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.pngf9a2dda1e2abb941^81cddda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png0034a89dddffdf42^1115"CpResource Default-568h@2x.png build/Release-iphonesimulator/rhorunner.app/Default-568h@2x.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-568h@2x.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"0FE2BE27-A785-47F3-8764-F2A9CE4FCF1B-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-Landscape.png build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png
+s430695073.865508
+e430695073.866902
+r1
+xCpResource
+xDefault-Landscape.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-Landscape.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png98"CpResource Default-Landscape.png build/Release-iphonesimulator/rhorunner.app/Default-Landscape.pngfeb4dda1e2abb941^53ebdda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png0034a89dddffdf42^1121"CpResource Default-Landscape.png build/Release-iphonesimulator/rhorunner.app/Default-Landscape.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-Landscape.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"4D7848BE-0F33-4BC8-8E7F-4B623611F088-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-LandscapeLeft.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png
+s430695073.858318
+e430695073.859556
+r1
+xCpResource
+xDefault-LandscapeLeft.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png106"CpResource Default-LandscapeLeft.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png6fd7dba1e2abb941^f81cdca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png0034a89dddffdf42^1133"CpResource Default-LandscapeLeft.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeLeft.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-LandscapeLeft.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"6851D9D3-EA0F-4538-9AB6-0B5C5E393C18-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-LandscapeRight.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png
+s430695073.856649
+e430695073.859553
+r1
+xCpResource
+xDefault-LandscapeRight.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png108"CpResource Default-LandscapeRight.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png3179dba1e2abb941^3e09dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png0034a89dddffdf42^1136"CpResource Default-LandscapeRight.png build/Release-iphonesimulator/rhorunner.app/Default-LandscapeRight.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-LandscapeRight.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"FE4AFACC-75F1-4BA8-A3E2-46AB316CB002-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-Portrait.png build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png
+s430695073.861285
+e430695073.862413
+r1
+xCpResource
+xDefault-Portrait.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-Portrait.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png96"CpResource Default-Portrait.png build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png6f9cdca1e2abb941^7ec7dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png0034a89dddffdf42^1118"CpResource Default-Portrait.png build/Release-iphonesimulator/rhorunner.app/Default-Portrait.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-Portrait.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"FA5CA346-77A0-4CD7-BC9D-91285229D7B4-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default-PortraitUpsideDown.png build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png
+s430695073.862057
+e430695073.863166
+r1
+xCpResource
+xDefault-PortraitUpsideDown.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png116"CpResource Default-PortraitUpsideDown.png build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.pngd5cedca1e2abb941^f9f8dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@149"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png0034a89dddffdf42^1148"CpResource Default-PortraitUpsideDown.png build/Release-iphonesimulator/rhorunner.app/Default-PortraitUpsideDown.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default-PortraitUpsideDown.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"063A97CA-BDA8-41D0-A782-969BC7BAEAF6-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default.png build/Release-iphonesimulator/rhorunner.app/Default.png
+s430695073.864964
+e430695073.866499
+r1
+xCpResource
+xDefault.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/Default.png78"CpResource Default.png build/Release-iphonesimulator/rhorunner.app/Default.png419edda1e2abb941^67d7dda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default.png0034a89dddffdf42^1091"CpResource Default.png build/Release-iphonesimulator/rhorunner.app/Default.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"50781754-0F90-4E01-BC91-773A5EA95422-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Default@2x.png build/Release-iphonesimulator/rhorunner.app/Default@2x.png
+s430695073.860581
+e430695073.861846
+r1
+xCpResource
+xDefault@2x.png
+xbuild/Release-iphonesimulator/rhorunner.app/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release-iphonesimulator/rhorunner.app/Default@2x.png84"CpResource Default@2x.png build/Release-iphonesimulator/rhorunner.app/Default@2x.png4b72dca1e2abb941^87a2dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Default@2x.png0034a89dddffdf42^1100"CpResource Default@2x.png build/Release-iphonesimulator/rhorunner.app/Default@2x.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Default@2x.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"C581C9B0-67F6-40B2-9204-1D5204E06E36-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/ESRI/BluePushpin.png build/Release-iphonesimulator/rhorunner.app/BluePushpin.png
+s430695073.857364
+e430695073.864485
+r1
+xCpResource
+xResources/ESRI/BluePushpin.png
+xbuild/Release-iphonesimulator/rhorunner.app/BluePushpin.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphonesimulator/rhorunner.app/BluePushpin.png101"CpResource Resources/ESRI/BluePushpin.png build/Release-iphonesimulator/rhorunner.app/BluePushpin.png55a3dba1e2abb941^484fdda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/BluePushpin.png0034a89dddffdf42^1133"CpResource Resources/ESRI/BluePushpin.png build/Release-iphonesimulator/rhorunner.app/BluePushpin.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/BluePushpin.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"1FC7B13F-F30B-4BE3-90C8-D0D924ED381B-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/ESRI/BluePushpin@2x.png build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png
+s430695073.867196
+e430695073.871296
+r1
+xCpResource
+xResources/ESRI/BluePushpin@2x.png
+xbuild/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png107"CpResource Resources/ESRI/BluePushpin@2x.png build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png9e27dea1e2abb941^b70ddfa1e2abb941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png0034a89dddffdf42^1142"CpResource Resources/ESRI/BluePushpin@2x.png build/Release-iphonesimulator/rhorunner.app/BluePushpin@2x.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/BluePushpin@2x.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"083B1120-C436-4608-B890-00DD8E74134D-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/ESRI/esri.png build/Release-iphonesimulator/rhorunner.app/esri.png
+s430695073.868112
+e430695073.873656
+r1
+xCpResource
+xResources/ESRI/esri.png
+xbuild/Release-iphonesimulator/rhorunner.app/esri.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Release-iphonesimulator/rhorunner.app/esri.png87"CpResource Resources/ESRI/esri.png build/Release-iphonesimulator/rhorunner.app/esri.pngcc5edea1e2abb941^a4a8dfa1e2abb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/esri.png0034a89dddffdf42^1112"CpResource Resources/ESRI/esri.png build/Release-iphonesimulator/rhorunner.app/esri.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/esri.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"39349B46-7F39-4250-92C6-251B0FDCC2BE-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/ESRI/esri@2x.png build/Release-iphonesimulator/rhorunner.app/esri@2x.png
+s430695073.862534
+e430695073.868768
+r1
+xCpResource
+xResources/ESRI/esri@2x.png
+xbuild/Release-iphonesimulator/rhorunner.app/esri@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/esri@2x.png93"CpResource Resources/ESRI/esri@2x.png build/Release-iphonesimulator/rhorunner.app/esri@2x.pngefe7dca1e2abb941^826fdea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/esri@2x.png0034a89dddffdf42^1121"CpResource Resources/ESRI/esri@2x.png build/Release-iphonesimulator/rhorunner.app/esri@2x.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/ESRI/esri@2x.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"6C2E7163-F320-47A9-8E5C-C2C4F84D9F8A-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/back_btn.png build/Release-iphonesimulator/rhorunner.app/back_btn.png
+s430695073.856771
+e430695073.864631
+r1
+xCpResource
+xResources/back_btn.png
+xbuild/Release-iphonesimulator/rhorunner.app/back_btn.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Release-iphonesimulator/rhorunner.app/back_btn.png90"CpResource Resources/back_btn.png build/Release-iphonesimulator/rhorunner.app/back_btn.png8579dba1e2abb941^145fdda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/back_btn.png0034a89dddffdf42^1114"CpResource Resources/back_btn.png build/Release-iphonesimulator/rhorunner.app/back_btn.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/back_btn.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"2F778F0F-071E-44DE-BDD4-93528E74D7E0-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/forward_btn.png build/Release-iphonesimulator/rhorunner.app/forward_btn.png
+s430695073.858143
+e430695073.865325
+r1
+xCpResource
+xResources/forward_btn.png
+xbuild/Release-iphonesimulator/rhorunner.app/forward_btn.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphonesimulator/rhorunner.app/forward_btn.png96"CpResource Resources/forward_btn.png build/Release-iphonesimulator/rhorunner.app/forward_btn.pngcfdcdba1e2abb941^7786dda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/forward_btn.png0034a89dddffdf42^1123"CpResource Resources/forward_btn.png build/Release-iphonesimulator/rhorunner.app/forward_btn.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/forward_btn.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"36E3AD8F-5C70-48BC-AEAE-A0554AD5222D-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/gears.png build/Release-iphonesimulator/rhorunner.app/gears.png
+s430695073.863292
+e430695073.869056
+r1
+xCpResource
+xResources/gears.png
+xbuild/Release-iphonesimulator/rhorunner.app/gears.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Release-iphonesimulator/rhorunner.app/gears.png84"CpResource Resources/gears.png build/Release-iphonesimulator/rhorunner.app/gears.png0d17dda1e2abb941^1475dea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/gears.png0034a89dddffdf42^1105"CpResource Resources/gears.png build/Release-iphonesimulator/rhorunner.app/gears.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/gears.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"50395D55-FF82-4933-B114-A8D16BC36383-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource Resources/home_btn.png build/Release-iphonesimulator/rhorunner.app/home_btn.png
+s430695073.856972
+e430695073.864618
+r1
+xCpResource
+xResources/home_btn.png
+xbuild/Release-iphonesimulator/rhorunner.app/home_btn.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Release-iphonesimulator/rhorunner.app/home_btn.png90"CpResource Resources/home_btn.png build/Release-iphonesimulator/rhorunner.app/home_btn.png4488dba1e2abb941^2657dda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/home_btn.png0034a89dddffdf42^1114"CpResource Resources/home_btn.png build/Release-iphonesimulator/rhorunner.app/home_btn.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Resources/home_btn.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"8D36FE67-49A6-435C-8493-45D5EC6C2FEC-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource iTunesArtwork build/Release-iphonesimulator/rhorunner.app/iTunesArtwork
+s430695073.860954
+e430695073.875740
+r1
+xCpResource
+xiTunesArtwork
+xbuild/Release-iphonesimulator/rhorunner.app/iTunesArtwork
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphonesimulator/rhorunner.app/iTunesArtwork82"CpResource iTunesArtwork build/Release-iphonesimulator/rhorunner.app/iTunesArtwork3886dca1e2abb941^f530e0a1e2abb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/iTunesArtwork0034a89dddffdf42^1097"CpResource iTunesArtwork build/Release-iphonesimulator/rhorunner.app/iTunesArtwork    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/iTunesArtwork /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"CABC1236-BC09-4011-BAED-14D3106C6B3C-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon114.png build/Release-iphonesimulator/rhorunner.app/icon114.png
+s430695073.867827
+e430695073.869216
+r1
+xCpResource
+xicon114.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon114.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/icon114.png78"CpResource icon114.png build/Release-iphonesimulator/rhorunner.app/icon114.png5856dea1e2abb941^b187dea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon114.png0034a89dddffdf42^1091"CpResource icon114.png build/Release-iphonesimulator/rhorunner.app/icon114.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon114.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"8B0DC048-3CFE-435D-8E9C-6CA23500C224-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon120.png build/Release-iphonesimulator/rhorunner.app/icon120.png
+s430695073.864676
+e430695073.865960
+r1
+xCpResource
+xicon120.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon120.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/icon120.png78"CpResource icon120.png build/Release-iphonesimulator/rhorunner.app/icon120.png6686dda1e2abb941^b0afdda1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon120.png0034a89dddffdf42^1091"CpResource icon120.png build/Release-iphonesimulator/rhorunner.app/icon120.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon120.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"60DF2D57-CC82-4A58-BD21-CC2DE0E6B420-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon144.png build/Release-iphonesimulator/rhorunner.app/icon144.png
+s430695073.859215
+e430695073.860449
+r1
+xCpResource
+xicon144.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon144.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/icon144.png78"CpResource icon144.png build/Release-iphonesimulator/rhorunner.app/icon144.png7a1adca1e2abb941^5649dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon144.png0034a89dddffdf42^1091"CpResource icon144.png build/Release-iphonesimulator/rhorunner.app/icon144.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon144.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"31D0F268-CA05-4687-A27C-1DC3A4EBED37-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon152.png build/Release-iphonesimulator/rhorunner.app/icon152.png
+s430695073.860032
+e430695073.861093
+r1
+xCpResource
+xicon152.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon152.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphonesimulator/rhorunner.app/icon152.png78"CpResource icon152.png build/Release-iphonesimulator/rhorunner.app/icon152.pngdd45dca1e2abb941^fc70dca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon152.png0034a89dddffdf42^1091"CpResource icon152.png build/Release-iphonesimulator/rhorunner.app/icon152.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon152.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"95889268-3FFB-4A55-AA55-64F95E4A8358-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon57.png build/Release-iphonesimulator/rhorunner.app/icon57.png
+s430695073.859706
+e430695073.860803
+r1
+xCpResource
+xicon57.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon57.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphonesimulator/rhorunner.app/icon57.png76"CpResource icon57.png build/Release-iphonesimulator/rhorunner.app/icon57.pngc93adca1e2abb941^ee5cdca1e2abb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon57.png0034a89dddffdf42^1088"CpResource icon57.png build/Release-iphonesimulator/rhorunner.app/icon57.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon57.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"3456A781-C675-46BA-80D2-4E283FBDBA71-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon60.png build/Release-iphonesimulator/rhorunner.app/icon60.png
+s430695073.866091
+e430695073.869544
+r1
+xCpResource
+xicon60.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphonesimulator/rhorunner.app/icon60.png76"CpResource icon60.png build/Release-iphonesimulator/rhorunner.app/icon60.png33dfdda1e2abb941^4a9bdea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon60.png0034a89dddffdf42^1088"CpResource icon60.png build/Release-iphonesimulator/rhorunner.app/icon60.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon60.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"E260783F-9E3A-4D32-89BE-8BE0F5C4EE92-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon72.png build/Release-iphonesimulator/rhorunner.app/icon72.png
+s430695073.866651
+e430695073.867679
+r1
+xCpResource
+xicon72.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphonesimulator/rhorunner.app/icon72.png76"CpResource icon72.png build/Release-iphonesimulator/rhorunner.app/icon72.pngcefddda1e2abb941^ff20dea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon72.png0034a89dddffdf42^1088"CpResource icon72.png build/Release-iphonesimulator/rhorunner.app/icon72.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon72.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"5F6ACF04-AB68-47D1-B652-1AD32E2A8CF9-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CCpResource icon76.png build/Release-iphonesimulator/rhorunner.app/icon76.png
+s430695073.866928
+e430695073.868088
+r1
+xCpResource
+xicon76.png
+xbuild/Release-iphonesimulator/rhorunner.app/icon76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphonesimulator/rhorunner.app/icon76.png76"CpResource icon76.png build/Release-iphonesimulator/rhorunner.app/icon76.png730edea1e2abb941^b151dea1e2abb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/icon76.png0034a89dddffdf42^1088"CpResource icon76.png build/Release-iphonesimulator/rhorunner.app/icon76.png    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/icon76.png /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app36"0C6F1C76-4C29-4B0D-B90B-9AFB676BCC46-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CGenerateDSYMFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner
+s430695074.899300
+e430695076.947076
+r1
+xGenerateDSYMFile
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generate /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM119"GenerateDSYMFile build/Release-iphonesimulator/rhorunner.app.dSYM build/Release-iphonesimulator/rhorunner.app/rhorunnerbe4ee6a2e2abb941^1475f2a4e2abb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM0034a89dddffdf42^1044"GenerateDSYMFile build/Release-iphonesimulator/rhorunner.app.dSYM build/Release-iphonesimulator/rhorunner.app/rhorunner    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app.dSYM36"065AE6CA-29D6-4D1F-B740-17A9700E0583-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CLd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner normal i386
+s430695074.243571
+e430695074.898353
+r1
+xLd
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner
+xnormal
+xi386
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner.LinkFileList
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhodeslibs.txt
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/crt1.o
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/app_build_configs.o
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/extensions.o
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/main.o
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/CApplicationDelegate.o
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/rhorunner.build/Release-iphonesimulator/rhorunner.build/libCoreAPI.a
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/rhorunner.build/Release-iphonesimulator/rhorunner.build/libRhoconnect-client.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/build/Release-iphonesimulator/libRhodes.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libiconv.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libsqlite3.0.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libSystem.override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libsystem_sim_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/system/libSystem.host.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_network.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+old: warning: directory not found for option '-L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos'
+old: warning: direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner68"Ld build/Release-iphonesimulator/rhorunner.app/rhorunner normal i38647753ea2e2abb941^7efce5a2e2abb941^-3883"ld: warning: directory not found for option '-L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos'ld: warning: direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.13(21%IDEActivityLogMessage2@125"Directory not found for option '-L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos'-430695074#0#139#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@283"Direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#139#297#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@283"Direct access in rho::LogMessage::isEnabled() const to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#436#297#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@293"Direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#733#307#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@293"Direct access in rho::LogMessage::addPrefix(char const*, int) to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#1040#307#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@285"Direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#1347#299#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@285"Direct access in rho::common::CRhoThread::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#1646#299#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@284"Direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#1945#298#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@284"Direct access in rho::common::CSystem::getThreadID() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#2243#298#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@321"Direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#2541#335#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@321"Direct access in rho::common::CRhoCallInThread<rho::common::CRhoSendLogCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#2876#335#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@322"Direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#3211#336#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@322"Direct access in rho::common::CRhoCallInThread<rho::common::CRhoCallbackCall>::runObject() to global weak symbol rho::common::CSystem::getThreadID()::lacks_gettid means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-430695074#3547#336#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2610"Ld build/Release-iphonesimulator/rhorunner.app/rhorunner normal i386    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone -L/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator -filelist /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -filelist rhodeslibs.txt -Xlinker -no_implicit_dylibs -fobjc-link-runtime -mios-simulator-version-min=6.0 -framework ExternalAccessory /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Rhodes/build/Release-iphonesimulator/libRhodes.a -lstdc++ -framework MediaPlayer -framework MobileCoreServices -framework CoreMotion -framework CoreMedia -framework CoreVideo -liconv -framework Foundation -framework UIKit -framework CoreFoundation -framework CoreLocation -lsqlite3.0 -framework AddressBook -framework SystemConfiguration -framework AudioToolbox -framework AVFoundation -framework CoreGraphics -lz -framework MapKit -framework CFNetwork -framework GameKit -framework Security -framework QuartzCore -framework EventKit -Xlinker -dependency_info -Xlinker /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner_dependency_info.dat -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhorunner36"08DB8B2C-7996-495C-BABC-05E3A3502406-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CPhaseScriptExecution Copy\ RhoBundle /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh
+s430695073.778687
+e430695073.856188
+r1
+xPhaseScriptExecution
+xCopy RhoBundle
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh
+oCreate dir /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/apps
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/db
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/hash
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/lib
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/name
+orm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhofilelist.txt
+ocp -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/bin/RhoBundle/* /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Run custom shell script 'Copy RhoBundle'136"PhaseScriptExecution Copy\ RhoBundle build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh0fedc7a1e2abb941^772fdba1e2abb941^-1078"Create dir /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.apprm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/appsrm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/dbrm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/hashrm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/librm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/namerm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhofilelist.txtcp -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/bin/RhoBundle/* /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app8(21%IDEActivityLogMessage2@123"Create dir /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app-430695073#0#123#-0#-----2@124"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/apps-430695073#123#124#-0#-----2@122"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/db-430695073#247#122#-0#-----2@124"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/hash-430695073#369#124#-0#-----2@123"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/lib-430695073#493#123#-0#-----2@124"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/name-430695073#616#124#-0#-----2@135"rm -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/rhofilelist.txt-430695073#740#135#-0#-----2@203"cp -Rf /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/bin/RhoBundle/* /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app-430695073#875#203#-0#-----0#0#1#--23073"PhaseScriptExecution Copy\ RhoBundle build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=alexb    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD="i386 x86_64"    export ARCHS_STANDARD_32_64_BIT="i386 x86_64"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT="i386 x86_64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export BUILD_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export CACHE_ROOT=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LANGUAGE_STANDARD=compiler-default    export CLANG_CXX_LIBRARY=libstdc++    export CLASS_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app    export CODE_SIGNING_ALLOWED=NO    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneSimulatorCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=NO    export CONFIGURATION=Release    export CONFIGURATION_BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export CONFIGURATION_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator    export CONTENTS_FOLDER_PATH=rhorunner.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=YES    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=rhorunner.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/Storemanager.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=rhorunner.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export EFFECTIVE_PLATFORM_NAME=-iphonesimulator    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=rhorunner.app/Executables    export EXECUTABLE_FOLDER_PATH=rhorunner.app    export EXECUTABLE_NAME=rhorunner    export EXECUTABLE_PATH=rhorunner.app/rhorunner    export EXTENSIONS_LDFLAGS="-filelist /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhodeslibs.txt"    export FILE_LIST=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=rhorunner.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=rhorunner.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OBJC_LEGACY_DISPATCH=YES    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=rhorunner_Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include ../shared"    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=rhorunner.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=rhorunner.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/Storemanager.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=alexb    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/Storemanager.dst    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=rhorunner.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-LinkMap-normal-i386.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator  /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos"    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=rhorunner.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13E28    export MAC_OS_X_VERSION_ACTUAL=1094    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0904    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJC_ABI_VERSION=2    export OBJECT_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects    export OBJECT_FILE_DIR_normal=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal    export OBJROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-all_load -ObjC -filelist rhodeslibs.txt"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=rhorunner.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS="c objective-c"    export PKGINFO_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/PkgInfo    export PKGINFO_PATH=rhorunner.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    export PLATFORM_NAME=iphonesimulator    export PLATFORM_PREFERRED_ARCH=i386    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLATFORM_VERSION_AVAILABILITY_H_FORMAT=60100    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=rhorunner.app/PlugIns    export PREBINDING=NO    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=rhorunner.app/PrivateHeaders    export PRODUCT_NAME=rhorunner    export PRODUCT_SETTINGS_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=Storemanager    export PROJECT_DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/DerivedSources    export PROJECT_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PROJECT_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Storemanager.xcodeproj    export PROJECT_NAME=Storemanager    export PROJECT_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build    export PROJECT_TEMP_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export PUBLIC_HEADERS_FOLDER_PATH=rhorunner.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=rhorunner.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    export SDK_NAME=iphonesimulator6.1    export SDK_PRODUCT_BUILD_VERSION=10B141    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=rhorunner.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=rhorunner.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export SRCROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES="1 2"    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=rhorunner    export TARGET_BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export TARGET_NAME=rhorunner    export TARGET_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=rhorunner.app    export UNSTRIPPED_PRODUCT=NO    export USER=alexb    export USER_APPS_DIR=/Users/alexb/Applications    export USER_HEADER_SEARCH_PATHS=Rhodes    export USER_LIBRARY_DIR=/Users/alexb/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="armv7 i386"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=rhorunner.app/version.plist    export VERSION_INFO_BUILDER=alexb    export VERSION_INFO_FILE=rhorunner_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:rhorunner  PROJECT:Storemanager-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=rhorunner.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=rhorunner.app/XPCServices    export YACC=yacc    export arch=i386    export variant=normal    /bin/sh -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-BD4D7DCE10AE2DA4003DCE59.sh36"0969025C-8EE9-4D25-9E32-1DA9A6486DA8-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CPhaseScriptExecution Move\ alerts\ to\ root\ of\ app /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh
+s430695073.876934
+e430695073.892557
+r1
+xPhaseScriptExecution
+xMove alerts to root of app
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh
+oAlerts folder is not found...
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Run custom shell script 'Move alerts to root of app'152"PhaseScriptExecution Move\ alerts\ to\ root\ of\ app build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh3068e1a1e2abb941^247fe4a1e2abb941^-30"Alerts folder is not found...1(21%IDEActivityLogMessage2@30"Alerts folder is not found...-430695073#0#30#-0#-----0#0#1#--23089"PhaseScriptExecution Move\ alerts\ to\ root\ of\ app build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=alexb    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD="i386 x86_64"    export ARCHS_STANDARD_32_64_BIT="i386 x86_64"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT="i386 x86_64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export BUILD_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export CACHE_ROOT=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LANGUAGE_STANDARD=compiler-default    export CLANG_CXX_LIBRARY=libstdc++    export CLASS_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app    export CODE_SIGNING_ALLOWED=NO    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneSimulatorCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=NO    export CONFIGURATION=Release    export CONFIGURATION_BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export CONFIGURATION_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator    export CONTENTS_FOLDER_PATH=rhorunner.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=YES    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=rhorunner.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/Storemanager.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=rhorunner.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export EFFECTIVE_PLATFORM_NAME=-iphonesimulator    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=rhorunner.app/Executables    export EXECUTABLE_FOLDER_PATH=rhorunner.app    export EXECUTABLE_NAME=rhorunner    export EXECUTABLE_PATH=rhorunner.app/rhorunner    export EXTENSIONS_LDFLAGS="-filelist /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhodeslibs.txt"    export FILE_LIST=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=rhorunner.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=rhorunner.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OBJC_LEGACY_DISPATCH=YES    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=rhorunner_Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include ../shared"    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=rhorunner.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=rhorunner.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/Storemanager.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=alexb    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/Storemanager.dst    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=rhorunner.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-LinkMap-normal-i386.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator  /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphoneos"    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal/i386/rhorunner.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=rhorunner.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13E28    export MAC_OS_X_VERSION_ACTUAL=1094    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0904    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJC_ABI_VERSION=2    export OBJECT_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects    export OBJECT_FILE_DIR_normal=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Objects-normal    export OBJROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-all_load -ObjC -filelist rhodeslibs.txt"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=rhorunner.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS="c objective-c"    export PKGINFO_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/PkgInfo    export PKGINFO_PATH=rhorunner.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    export PLATFORM_NAME=iphonesimulator    export PLATFORM_PREFERRED_ARCH=i386    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLATFORM_VERSION_AVAILABILITY_H_FORMAT=60100    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=rhorunner.app/PlugIns    export PREBINDING=NO    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=rhorunner.app/PrivateHeaders    export PRODUCT_NAME=rhorunner    export PRODUCT_SETTINGS_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=Storemanager    export PROJECT_DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/DerivedSources    export PROJECT_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PROJECT_FILE_PATH=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Storemanager.xcodeproj    export PROJECT_NAME=Storemanager    export PROJECT_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build    export PROJECT_TEMP_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export PUBLIC_HEADERS_FOLDER_PATH=rhorunner.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=rhorunner.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    export SDK_NAME=iphonesimulator6.1    export SDK_PRODUCT_BUILD_VERSION=10B141    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=rhorunner.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=rhorunner.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export SRCROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES="1 2"    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=rhorunner    export TARGET_BUILD_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator    export TARGET_NAME=rhorunner    export TARGET_TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_FILES_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_FILE_DIR=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build    export TEMP_ROOT=/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=rhorunner.app    export UNSTRIPPED_PRODUCT=NO    export USER=alexb    export USER_APPS_DIR=/Users/alexb/Applications    export USER_HEADER_SEARCH_PATHS=Rhodes    export USER_LIBRARY_DIR=/Users/alexb/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="armv7 i386"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=rhorunner.app/version.plist    export VERSION_INFO_BUILDER=alexb    export VERSION_INFO_FILE=rhorunner_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:rhorunner  PROJECT:Storemanager-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=rhorunner.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=rhorunner.app/XPCServices    export YACC=yacc    export arch=i386    export variant=normal    /bin/sh -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/Script-5C61F2BD1022321A0013E321.sh36"2733E64B-FBB8-4548-992F-7DE996D7CF08-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CProcessInfoPlistFile /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Info.plist /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist
+s430695073.776140
+e430695073.777828
+r1
+xProcessInfoPlistFile
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Info.plist
+x/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Process /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist86"ProcessInfoPlistFile build/Release-iphonesimulator/rhorunner.app/Info.plist Info.plistc1c9c6a1e2abb941^3220c7a1e2abb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist0000000000000000^1097"ProcessInfoPlistFile build/Release-iphonesimulator/rhorunner.app/Info.plist Info.plist    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    builtin-infoPlistUtility /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/Info.plist -genpkginfo /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app/Info.plist36"8A8B1247-33C9-4090-878E-0D22F9A8701C-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430695073.893733
+e430695074.130162
+r1
+xProcessPCH
+x/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch
+xrhorunner_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile rhorunner_Prefix.pch288"ProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercde7e4a1e2abb941^d25621a2e2abb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch0000000000000000^4043"ProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator --serialize-diagnostics /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.d -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch -o /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-ehrasgaaxpkpzldwpbgaaoagkyrp/rhorunner_Prefix.pch.pch36"8258A913-C1F8-4AC3-B69B-B89180C3E7FD-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430695073.893344
+e430695073.908384
+r1
+xProcessPCH
+x/var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch
+xrhorunner_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile rhorunner_Prefix.pch278"ProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9ad0e4a1e2abb941^eb8be8a1e2abb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch0000000000000000^3786"ProcessPCH /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch rhorunner_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/bin:/Users/alexb/.rvm/gems/ruby-1.9.3-p547@global/bin:/Users/alexb/.rvm/rubies/ruby-1.9.3-p547/bin:/Users/alexb/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/android-sdk/platform-tools:/usr/local/opt/android-sdk/tools:/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -mios-simulator-version-min=6.0 -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-generated-files.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-own-target-headers.hmap -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-all-target-headers.hmap -iquote /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/rhorunner-project-headers.hmap -iquoteRhodes -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/include -I../shared -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources/i386 -I/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Storemanager.build/Release-iphonesimulator/rhorunner.build/DerivedSources -F/Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator --serialize-diagnostics /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.d -c /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/rhorunner_Prefix.pch -o /var/folders/vt/n9zx2_cj2pbcpz8yfnwszh_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/rhorunner_Prefix-fyjwkvfihsixlecpbmzoqguzxowg/rhorunner_Prefix.pch.pch36"73005813-F68C-40ED-8870-9F23F58BDD7C-
+b477944C0-A355-4CE8-9BC6-1469907F6FD4
+
+CTouch /Users/alexb/workspace/Rhoconnect-Demo/store-manager/project/iphone/build/Release-iphonesimulator/rhorunner.app
+r0
+
