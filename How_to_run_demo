@@ -15,8 +15,7 @@ $ cd store-manager
 $ rake run:iphone
   or
 $ rake run:rhosimulator
-
-OR
+  OR
 rake device:android:production_with_prebuild_binary
 adb install bin/target/android/store-manager_signed.apk
 
