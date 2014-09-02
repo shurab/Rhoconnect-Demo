@@ -3,9 +3,6 @@ require 'rest_client'
 
 class Product < Rhoconnect::Model::Base
   def initialize(source)
-    # Backend rails server is running locally:
-    #@base = 'http://localhost:3000/products'
-
     # Backend rails server is running omn Heroku:
     @base = 'http://rhostore.herokuapp.com/products'
     super(source)

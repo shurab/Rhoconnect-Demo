@@ -1,20 +1,37 @@
 ## RhoConnect Demo
 
+### local-without-plugin
+
 Sample applications for RhoConnect presentation:
 
 * rhostore: This is the sample rails application that serves the "backend"
 
-* rhoconnect-basic: Vanilla RhoConnect application
-
-* rhoconnect-server: RhoConnect application with Product model
+* rhoconnect-server: RhoConnect application with Product model and CUD methods
 
 * store-manager: Rhodes application (fixed schema DB)
 
-### Plugin
+How to create 'rhoconnect-server':
 
-Sample applications for RhoConnect presentation how to use rhoconnectrb plugin:
+```
+$ rhoconnect app rhoconnect-server
+$ cd rhoconnect-server/
+$ rhoconnect help
+$ rhoconnect source Product
+```
 
-* rhostore-with-plugin: This is the sample rails application that serves the "backend"
+Then implement Product business logic.
+
+### local-with-plugin
+
+Sample applications for RhoConnect presentation:
+
+* rhostore: This is the sample rails application that serves the "backend" with rhoconnectrb plugin
+
+* rhoconnect-vanilla: Vanilla RhoConnect application
+
+* store-manager: Rhodes application (fixed schema DB)
+
+Rhostore is modified the following way:
 
   - add line "gem 'rhoconnect-rb'" to Gemfile
 
@@ -22,16 +39,12 @@ Sample applications for RhoConnect presentation how to use rhoconnectrb plugin:
 
   - edit app/models/product.rb
 
-
-### Sample of rhoconnect application 'rhoconnect-basic'
-It's created by running these commands:
+How to create 'rhoconnect-vanilla':
 
 ```
-$ rhoconnect app rhoconnect-basic
-$ cd rhoconnect-basic/
-$ rhoconnect help
-$ rhoconnect source Product
+$ rhoconnect app rhoconnect-vanilla
 ```
+
 
 ### How to create store-manager
 
@@ -82,11 +95,11 @@ $ rake run:iphone
 
   or rhosimulator
 
-```  
+```
 $ rake run:rhosimulator
 ```
 
-### RhoMobile
+### Remote
 
 ```
 cd store-manager/

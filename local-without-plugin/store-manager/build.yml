@@ -1,5 +1,5 @@
-# sdk: "/Users/alexb/.rvm/gems/ruby-1.9.3-p547/gems/rhodes-5.0.2"
 sdk: "/Users/alexb/.rvm/gems/ruby-1.9.3-p547@5.0.3.beta/gems/rhodes-5.0.3.beta.9"
+#sdk: "/Users/alexb/.rvm/gems/ruby-1.9.3-p547/gems/rhodes-5.0.2"
 # sdkversion: 5.0.0
 name: store-manager
 version: 1.0

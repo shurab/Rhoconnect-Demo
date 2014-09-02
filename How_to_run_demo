@@ -1,25 +1,50 @@
 1)  Start rhoconnect server
 
-$ cd rhoconnect server
+```
+$ cd rhoconnect-server
 $ redis-cli flushdb
 $ rhoconnect start
+```
 
 2) Start rails
 
+```
 $ cd rhostore
 $ rails server
+```
 
 3) Start rhodes mobile client
 
+```
+$ rvm use 1.9.3
+```
+
+Verify syncserver IP address (in my case it was syncserver = 'http://192.168.1.14:9292' )
+
+```
 $ cd store-manager
+```
+
+Then
+
+```
 $ rake run:iphone
-  or
+```
+
+  OR
+
+```
 $ rake run:rhosimulator
+```
+  OR
 
-OR
-rake device:android:production_with_prebuild_binary
-adb install bin/target/android/store-manager_signed.apk
-
+```
+$ rvm gemset list
+$ rvm gemset use 5.0.3.beta
+$ rake clean:android
+$ rake device:android:production_with_prebuild_binary
+$ adb install bin/target/android/store-manager_signed.apk
+```
 
 # -----------------------------------------
 # Plugin
@@ -38,6 +63,9 @@ $ rails s
 # run any rhodes client
 
 ### Monitoring ports
+
+```
 sudo ngrep -d en1 -W byline port 9292
 sudo ngrep -d lo0 -W byline port 9292
+```
 
