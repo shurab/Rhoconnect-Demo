@@ -1,3 +1,6 @@
 Attic/
 launch_droid_screen.sh
-*/**/.DS_Store
+store-manager/
+.DS_Store
+.DS_Store?
+._*

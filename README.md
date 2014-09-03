@@ -101,6 +101,8 @@ $ rake run:rhosimulator
 
 ### Remote
 
+#### How to push store-manager app to remote rhomobile repository.
+
 ```
 cd store-manager/
 git init
@@ -110,7 +112,7 @@ git commit -m "Init commit of store-manager app"
 git push -u origin master
 ```
 
-#### vendor/cache
+#### How to package rhoconnect-server to run on rhomobile.
 
 ```
 bundle package
@@ -118,6 +120,12 @@ bundle install
 git add vendor/
 git commit ...
 ```
+
+#### Remote URLs
+
+RhoConnect Console: https://rhohub-shurab-0d5b2ab8.herokuapp.com/console/
+Rhostore: http://rhostore.herokuapp.com/products
+
 
 ### Docs
 ### Video

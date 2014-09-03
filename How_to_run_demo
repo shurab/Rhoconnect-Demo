@@ -39,8 +39,7 @@ $ rake run:rhosimulator
   OR
 
 ```
-$ rvm gemset list
-$ rvm gemset use 5.0.3.beta
+rvm use 1.9.3
 $ rake clean:android
 $ rake device:android:production_with_prebuild_binary
 $ adb install bin/target/android/store-manager_signed.apk
