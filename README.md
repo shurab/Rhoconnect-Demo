@@ -106,7 +106,15 @@ $ rake run:rhosimulator
 ```
 cd store-manager/
 git init
+
+# Set a new remote
 git remote add origin git@git.rhohub.com:shurab/store-manager.git
+
+# Verify new remote
+$ git remote -v
+origin  git@git.rhohub.com:shurab/store-manager.git (fetch)
+origin  git@git.rhohub.com:shurab/store-manager.git (push)
+
 git add .
 git commit -m "Init commit of store-manager app"
 git push -u origin master
