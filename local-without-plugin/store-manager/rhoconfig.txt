@@ -95,6 +95,7 @@ use_bb_full_browser=6
 
 ### 2
 #syncserver = 'http://localhost:9292'
-#syncserver = 'http://192.168.1.14:9292'
+#syncserver = 'http://10.186.2.130:9292'
+#syncserver = 'http://192.168.1.12:9292'
 
-syncserver = 'http://10.186.2.130:9292'
+syncserver = 'http://192.168.1.14:9292'
