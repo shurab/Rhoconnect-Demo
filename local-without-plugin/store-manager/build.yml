@@ -3,6 +3,8 @@ sdk: "/Users/alexb/.rvm/gems/ruby-1.9.3-p547/gems/rhodes-5.0.3.beta.12"
 # sdkversion: 5.0.0
 name: store-manager
 version: 1.0
+# app_type is required for window mobile platform
+app_type: rhoelements
 vendor: rhomobile
 build: debug
 applog: rholog.txt
