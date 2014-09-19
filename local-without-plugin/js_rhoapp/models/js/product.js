@@ -40,7 +40,6 @@ var Product = function(){
         console.log("**** on error: "  + new Date());
         resp.send(false);
       });
-
     }).end();
   };
 
