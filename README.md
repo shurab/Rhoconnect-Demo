@@ -132,8 +132,8 @@ git commit ...
 #### Remote URLs
 
 RhoConnect Console: https://rhohub-shurab-0d5b2ab8.herokuapp.com/console/
-Rhostore: http://rhostore.herokuapp.com/products
 
+Rhostore: http://rhostore.herokuapp.com/products
 
 ### Docs
 ### Video
